@@ -10,12 +10,10 @@
       <a-camera>
         <a-cursor></a-cursor>
       </a-camera>
-      <!-- <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box> -->
-      <!-- <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere> -->
-      <!-- <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder> -->
       <a-plane position="0 0 -4" rotation="-90 0 0" width="30" height="30" color="rgb(30, 30, 30)"> <!-- floor -->
-        <a-box rotation="90 0 0" position="0 0 1" depth="0.1" > <!-- map of campuses -->
-          <a-text id="mapBoxText" value="Look at me!" position="-0.42 0 0.06" width="3.5" openanim></a-text><!-- test text for setting up event; sits in fron of grey background -->
+        <a-box id="mapBox" rotation="90 0 0" position="0 0 1" depth="0.1" 
+                animation="property: scale; to: 4 2 1; startEvents: openAnim;" > <!-- map of campuses -->
+          <a-text id="mapBoxText" value="Look at me!" position="-0.42 0 0.06" width="3.5" ></a-text><!-- test text for setting up event; sits in fron of grey background -->
           <a-box position="0 0 0" depth="0.11" width="0.85" height="0.85" color="rgb(80, 80, 80)"></a-box> <!-- grey background of map of campuses -->
           <a-cylinder rotation="90 0 0" position="-0.47 0.47 0" height="0.1" radius="0.045" ></a-cylinder> <!-- top left corner -->
           <a-cylinder rotation="90 0 0" position="-0.47 -0.47 0" height="0.1" radius="0.045" ></a-cylinder> <!-- bottom left corner -->
@@ -46,9 +44,10 @@
           }
       });
       */
-      let mapBox = document.getElementById('mapBoxButton');
+      let mapBoxButton = document.getElementById('mapBoxButton');
+      let mapBox = document.getElementById('mapBox');
 
-      mapBox.addEventListener('click', () => {
+      mapBoxButton.addEventListener('click', () => {
         mapBox.emit('openAnim');
         console.log('map box click event');
       });
