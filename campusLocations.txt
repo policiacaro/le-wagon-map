@@ -9,7 +9,7 @@
 -Germany, Cologne : Data Science, Web Development
 -Germnay, Munich : Data Science, Web Development
 
--France, Bordeaux : Data Science, Data Analyst, Web Development
+	-France, Bordeaux : Data Science, Data Analyst, Web Development
 -France, Lille : Data Science, Data Analyst, Web Development
 -France, Lyon : Data Science, Data Analyst, Web Development
 -France, Marseille : Data Science, Web Development
@@ -18,40 +18,40 @@
 -France, Paris : Data Science, Data Analyst, Web Development
 -France, Rennes : Data Science, Data Analyst, Web Development
 
--Belgium, Brussels : Data Science, Web Development
+	-Belgium, Brussels : Data Science, Web Development
 
--Argentina, Buenos Aires: Data Science, Web Development
+	-Argentina, Buenos Aires: Data Science, Web Development
 
--South Africa, Cape Town : Data Science, Web Development
+	-South Africa, Cape Town : Data Science, Web Development
 
--Morocco, Casablanca : Data Science, Web Development
+	-Morocco, Casablanca : Data Science, Web Development
 
--United Arab Emirates, Dubai
+	-United Arab Emirates, Dubai
 
--Switzerland, Lausanne : Data Science, Web Development
+	-Switzerland, Lausanne : Data Science, Web Development
 -Switzerland, Zurich : Data Science, Web Development
 
--Portugal, Lisbon : Data Science, Web Development
+	-Portugal, Lisbon : Data Science, Web Development
 -Portugal, Porto : Data Science, Web Development
 
--England, London : Data Science, Web Development
+	-England, London : Data Science, Web Development
 
--Republic of Mauritius, Mauritius : Data Science, Web Development
+	-Republic of Mauritius, Mauritius : Data Science, Web Development
 
--Australia, Melbourne : Data Science, Web Development
+	-Australia, Melbourne : Data Science, Web Development
 
--Mexico, Mexico City : Data Science, Web Development
+	-Mexico, Mexico City : Data Science, Web Development
 -Mexico, Playa Del Carmen : Web Development
 
--Canada, Montreal : Data Science, Web Development
+	-Canada, Montreal : Data Science, Web Development
 
--Brazil, Rio de Janeiro : Data Science, Web Development
+	-Brazil, Rio de Janeiro : Data Science, Web Development
 -Brazil, Sao Paulo : Data Science, Web Development
 
--Chile, Santiago : Data Science, Web Development
+	-Chile, Santiago : Data Science, Web Development
 
--China, Shanghai : Data Science, Web Development
+	-China, Shanghai : Data Science, Web Development
 
--Singapore, Singapore : Data Science, Web Development
+	-Singapore, Singapore : Data Science, Web Development
 
--Japan, Tokyo : Data Science, Web Development
+	-Japan, Tokyo : Data Science, Web Development
